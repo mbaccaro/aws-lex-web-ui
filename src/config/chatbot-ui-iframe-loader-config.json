@@ -12,7 +12,7 @@
       "initialSpeechInstruction": "Say 'Buy Flowers' to get started."
     },
     "ui": {
-      "toolbarTitle": "Order Flowers",
+      "toolbarTitle": "Chat",
       "pushInitialTextOnRestart": false
     },
     "polly": {

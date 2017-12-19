@@ -67,10 +67,10 @@ const configDefault = {
 
     // instruction message shown in the UI
     initialText: 'You can ask me for help ordering flowers. ' +
-      'Just type "order flowers" or click on the mic and say it.',
+      'Just type "Innobot" or click on the mic and say it.',
 
     // instructions spoken when mic is clicked
-    initialSpeechInstruction: 'Say "Order Flowers" to get started',
+    initialSpeechInstruction: 'Say "Innobot" to get started',
 
     // Lex initial sessionAttributes
     sessionAttributes: {},
@@ -112,7 +112,7 @@ const configDefault = {
   ui: {
     // TODO may want to move pageTitle out to LexApp or Page component
     // title of HTML page added dynamically to index.html
-    pageTitle: 'Order Flowers Bot',
+    pageTitle: 'Innobot',
 
     // when running as an embedded iframe, this will be used as the
     // be the parent origin used to send/receive messages
@@ -126,10 +126,10 @@ const configDefault = {
     // chat window text placeholder
     textInputPlaceholder: 'Type here or click on the mic',
 
-    toolbarColor: 'red',
+    toolbarColor: 'gray',
 
     // chat window title
-    toolbarTitle: 'Order Flowers',
+    toolbarTitle: 'Innobot',
 
     // logo used in toolbar - also used as favicon not specificied
     toolbarLogo: '',

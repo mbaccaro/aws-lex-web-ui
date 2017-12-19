@@ -358,7 +358,7 @@ it creates a project that hosts the chatbot UI web app in
 [S3](https://aws.amazon.com/s3/) and
 [CloudFront](https://aws.amazon.com/cloudfront/).
 It also automatically deploys and configures a sample Lex bot based on the
-[Order Flowers bot](http://docs.aws.amazon.com/lex/latest/dg/gs-bp-create-bot.html) (you can later change it to import a different bot into the project)
+[Innobot](http://docs.aws.amazon.com/lex/latest/dg/gs-bp-create-bot.html) (you can later change it to import a different bot into the project)
 and an [Amazon Cognito Identity Pool](http://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html).
 
 To launch with Mobile Hub:

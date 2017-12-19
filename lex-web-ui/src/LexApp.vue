@@ -3,8 +3,7 @@
     <page
       v-bind:favIcon="favIcon"
       v-bind:pageTitle="pageTitle"
-      v-once
-    ></page>
+      v-once></page>
     <router-view></router-view>
   </div>
 </template>
@@ -49,8 +48,7 @@ function getToolbarLogo() {
 
 function getFavIcon() {
   // search for favicon in assets directory - use toolbar logo if not found
-  const favIconRequire =
-    require.context('@/assets', false, /^\.\/favicon.(png|jpe?g|svg|ico)$/);
+  const favIconRequire = require.context('@/assets', false, /^\.\/favicon.(png|jpe?g|svg|ico)$/);
   const favIconRequireKey = favIconRequire.keys().pop();
   return (favIconRequireKey) ?
     favIconRequire(favIconRequireKey) :
@@ -73,7 +71,7 @@ export default {
   data() {
     return {
       favIcon: getFavIcon(),
-      pageTitle: 'Order Flowers Bot',
+      pageTitle: 'Innobot',
     };
   },
 };

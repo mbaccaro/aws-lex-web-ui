@@ -186,7 +186,7 @@ Parameters:
 
     WebAppConfToolbarTitle:
         Type: String
-        Default: Order Flowers
+        Default: Innobot
         Description: >
             Title displayed in the chatbot UI toobar. Only used when
             CreatePipeline is set to false.

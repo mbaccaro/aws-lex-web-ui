@@ -5,7 +5,7 @@ features:
       OrderFlowers: !com.amazonaws.mobilehub.v0.Bot
         attributes:
           childDirected: false
-          description: Bot to order flowers.
+          description: Bot to Innobot.
           existing: false
           template: bot-flowers
   content-delivery: !com.amazonaws.mobilehub.v0.ContentDelivery

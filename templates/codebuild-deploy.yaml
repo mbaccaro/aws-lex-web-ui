@@ -77,7 +77,7 @@ Parameters:
 
     WebAppConfToolbarTitle:
         Type: String
-        Default: Order Flowers
+        Default: Innobot
         Description: Title displayed in the chatbot UI toobar
 
 Conditions:
