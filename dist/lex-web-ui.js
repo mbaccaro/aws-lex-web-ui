@@ -933,10 +933,10 @@ var configDefault = {
     botAlias: '$LATEST',
 
     // instruction message shown in the UI
-    initialText: 'You can ask me for help ordering flowers. ' + 'Just type "order flowers" or click on the mic and say it.',
+    initialText: 'You can ask me for help ordering flowers. ' + 'Just type "Innobot" or click on the mic and say it.',
 
     // instructions spoken when mic is clicked
-    initialSpeechInstruction: 'Say "Order Flowers" to get started',
+    initialSpeechInstruction: 'Say "Innobot" to get started',
 
     // Lex initial sessionAttributes
     sessionAttributes: {},
@@ -978,7 +978,7 @@ var configDefault = {
   ui: {
     // TODO may want to move pageTitle out to LexApp or Page component
     // title of HTML page added dynamically to index.html
-    pageTitle: 'Order Flowers Bot',
+    pageTitle: 'Innobot',
 
     // when running as an embedded iframe, this will be used as the
     // be the parent origin used to send/receive messages
@@ -992,10 +992,10 @@ var configDefault = {
     // chat window text placeholder
     textInputPlaceholder: 'Type here or click on the mic',
 
-    toolbarColor: 'red',
+    toolbarColor: 'gray',
 
     // chat window title
-    toolbarTitle: 'Order Flowers',
+    toolbarTitle: 'Innobot',
 
     // logo used in toolbar - also used as favicon not specificied
     toolbarLogo: '',
@@ -4829,19 +4829,19 @@ webpackContext.id = 150;
 /* 151 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.","initialSpeechInstruction":"Say 'Order Flowers' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"Order Flowers Bot","toolbarTitle":"Order Flowers"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"You can ask me for help ordering flowers. Just type \"Innobot\" or click on the mic and say it.","initialSpeechInstruction":"Say 'Innobot' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"Innobot","toolbarTitle":"Chat"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 152 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.","initialSpeechInstruction":"Say 'Order Flowers' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"","pageTitle":"Order Flowers Bot","toolbarTitle":"Order Flowers"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"You can ask me for help ordering flowers. Just type \"Innobot\" or click on the mic and say it.","initialSpeechInstruction":"Say 'Innobot' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"","pageTitle":"Innobot","toolbarTitle":"Innobot"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 153 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.","initialSpeechInstruction":"Say 'Order Flowers' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"Order Flowers Bot","toolbarTitle":"Order Flowers"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"You can ask me for help ordering flowers. Just type \"Innobot\" or click on the mic and say it.","initialSpeechInstruction":"Say 'Innobot' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"Innobot","toolbarTitle":"Innobot"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 154 */
