@@ -171,8 +171,7 @@ Parameters:
     WebAppConfBotInitialText:
         Type: String
         Default: >
-            You can ask me for help ordering flowers. Just type "Buy
-            flowers" or click on the mic and say it.
+            Hello
         Description: >
             First bot message displayed in the chatbot UI. Only used
             when CreatePipeline is set to false.

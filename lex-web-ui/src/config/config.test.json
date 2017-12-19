@@ -4,7 +4,7 @@
   },
   "lex": {
     "botName": "WebUiOrderFlowers",
-    "initialText": "You can ask me for help ordering flowers. Just type \"Innobot\" or click on the mic and say it.",
+    "initialText": "Hello",
     "initialSpeechInstruction": "Say 'Innobot' to get started."
   },
   "polly": {

@@ -66,8 +66,7 @@ const configDefault = {
     botAlias: '$LATEST',
 
     // instruction message shown in the UI
-    initialText: 'You can ask me for help ordering flowers. ' +
-      'Just type "Innobot" or click on the mic and say it.',
+    initialText: 'Hello. ',
 
     // instructions spoken when mic is clicked
     initialSpeechInstruction: 'Say "Innobot" to get started',

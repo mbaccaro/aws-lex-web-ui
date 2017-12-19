@@ -933,7 +933,7 @@ var configDefault = {
     botAlias: '$LATEST',
 
     // instruction message shown in the UI
-    initialText: 'You can ask me for help ordering flowers. ' + 'Just type "Innobot" or click on the mic and say it.',
+    initialText: 'Hello. ',
 
     // instructions spoken when mic is clicked
     initialSpeechInstruction: 'Say "Innobot" to get started',
@@ -4829,19 +4829,19 @@ webpackContext.id = 150;
 /* 151 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"You can ask me for help ordering flowers. Just type \"Innobot\" or click on the mic and say it.","initialSpeechInstruction":"Say 'Innobot' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"Innobot","toolbarTitle":"Chat"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"Hello","initialSpeechInstruction":"Say 'Innobot' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"Innobot","toolbarTitle":"Chat"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 152 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"You can ask me for help ordering flowers. Just type \"Innobot\" or click on the mic and say it.","initialSpeechInstruction":"Say 'Innobot' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"","pageTitle":"Innobot","toolbarTitle":"Innobot"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"Hello","initialSpeechInstruction":"Say 'Innobot' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"","pageTitle":"Innobot","toolbarTitle":"Innobot"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 153 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"You can ask me for help ordering flowers. Just type \"Innobot\" or click on the mic and say it.","initialSpeechInstruction":"Say 'Innobot' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"Innobot","toolbarTitle":"Innobot"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"Hello","initialSpeechInstruction":"Say 'Innobot' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"Innobot","toolbarTitle":"Innobot"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 154 */
