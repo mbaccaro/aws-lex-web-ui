@@ -63,6 +63,8 @@ SRC_CONFIG_DIR := $(SRC_DIR)/config
 MH_ZIP_FILES += $(wildcard $(SRC_CONFIG_DIR)/*.json)
 MH_ZIP_FILES += $(SRC_CONFIG_DIR)/mobile-hub-project.yml
 lex-web-ui-mobile-hub.zip: $(MH_ZIP_FILES) $(LIBRARY_FILES) $(MH_PROJECT_FILE)
+	@echo "[INFO] *** MBACCARO customized bash *** "
+	@echo "[INFO] Building Mobile Hub project has been started"
 	@echo "[INFO] Building Mobile Hub project [$(@)] with files: [$(^)]"
 	@zip -u -j lex-web-ui-mobile-hub.zip $(^)
 
