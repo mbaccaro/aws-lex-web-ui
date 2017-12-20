@@ -6,7 +6,7 @@
       ma-0
       class="input-container"
     >
-      <v-toolbar color="white">
+      <v-toolbar color="#f2f3f4">
         <!--
           using v-show instead of v-if to make recorder-status transition work
         -->
@@ -248,3 +248,11 @@ export default {
   },
 };
 </script>
+<style scoped>
+.primary--text {
+  color: #7471FE !important;
+}
+.input-group__details::after, .input-group__details::before {
+      visibility: hidden;
+}
+</style>

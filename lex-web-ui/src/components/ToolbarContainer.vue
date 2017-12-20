@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar v-bind:color="toolbarColor" dark dense>
+  <v-toolbar v-bind:color="gray" light dense>
     <img v-bind:src="toolbarLogo">
     <v-toolbar-title class="hidden-xs-and-down">
       {{ toolbarTitle }}
@@ -70,3 +70,16 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.toolbar {
+  box-shadow: none;
+}
+.toolbar__content img {
+width: 150px;
+}
+nav {
+  display: flex;
+    justify-content: center;
+}
+</style>
