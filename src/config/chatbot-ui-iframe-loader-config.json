@@ -7,7 +7,7 @@
   },
   "iframeConfig": {
     "lex": {
-      "botName": "",
+      "botName": "OrderFlowers",
       "initialText": "Hello",
       "initialSpeechInstruction": "Say 'Innobot' to get started."
     },

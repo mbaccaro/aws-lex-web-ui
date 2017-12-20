@@ -3,7 +3,7 @@
     "poolId": ""
   },
   "lex": {
-    "botName": "",
+    "botName": "OrderFlowers",
     "initialText": "Hello",
     "initialSpeechInstruction": "Say 'Innobot' to get started."
   },
@@ -12,7 +12,8 @@
   },
   "ui": {
     "parentOrigin": "",
-    "toolbarTitle": "Innobot"
+    "toolbarTitle": "Innobot",
+    "toolbarLogo": ""
   },
   "recorder": {
     "preset": "speech_recognition"
