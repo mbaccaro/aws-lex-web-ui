@@ -6,9 +6,9 @@
     </v-toolbar-title>
     <v-spacer />
     <!-- tooltip should be before btn to avoid right margin issue in mobile -->
-    <!-- <v-tooltip v-model="shouldShowTooltip" activator=".min-max-toggle" left>
-      <span id="min-max-tooltip">{{toolTipMinimize}}</span>
-    </v-tooltip> -->
+    <v-tooltip v-model="shouldShowTooltip" activator=".min-max-toggle" left>
+      <!-- <span id="min-max-tooltip">{{toolTipMinimize}}</span> -->
+    </v-tooltip>
     <v-btn
       v-if="$store.state.isRunningEmbedded"
       v-on:click="toggleMinimize"
