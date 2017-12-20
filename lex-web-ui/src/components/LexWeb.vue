@@ -213,4 +213,8 @@ export default {
    */
   min-height: calc(100vh - 64px);
 }
+
+.application--light{
+  background: #fff;
+}
 </style>

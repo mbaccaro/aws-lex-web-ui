@@ -100,15 +100,19 @@ export default {
 <style scoped>
 .message {
   /* this is needed for ie11 */
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 
 .message-bot .chip {
-  background-color: #FFEBEE; /* red-50 from material palette */
+  background-color: #f2f3f4; /* red-50 from material palette */
 }
 
 .message-human .chip {
-  background-color: #E8EAF6; /* indigo-50 from material palette */
+  background-color: #7471FE; /* indigo-50 from material palette */
+  color: #fff !important;
+}
+.message-human .chip:focus {
+box-shadow: 0 2px 5px 0 hsla(241, 99%, 72%, 0.49), 0 10px 20px 0 rgba(65,65,80,0.07);
 }
 
 .chip {
@@ -116,6 +120,10 @@ export default {
   margin: 8px;
   font-size: calc(1em + 0.25vmin);
   max-width: 66vw;
+  border-radius: 10px;
+}
+.chip:focus {
+box-shadow: 0 2px 5px 0 rgba(65,65,80,0.06), 0 10px 20px 0 rgba(65,65,80,0.07);
 }
 
 /* workaround for chip overriding icon color as important */
