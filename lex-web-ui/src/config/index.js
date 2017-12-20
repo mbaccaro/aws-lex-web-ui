@@ -66,7 +66,7 @@ const configDefault = {
     botAlias: '$LATEST',
 
     // instruction message shown in the UI
-    initialText: 'Hello. ',
+    initialText: 'Hello',
 
     // instructions spoken when mic is clicked
     initialSpeechInstruction: 'Say "Innobot" to get started',
@@ -138,7 +138,7 @@ const configDefault = {
 
     // controls if the Lex initialText will be pushed into the message
     // list after the bot dialog is done (i.e. fail or fulfilled)
-    pushInitialTextOnRestart: true,
+    pushInitialTextOnRestart: false,
 
     // controls if the Lex sessionAttributes should be re-initialized
     // to the config value (i.e. lex.sessionAttributes)
@@ -153,7 +153,7 @@ const configDefault = {
     stripTagsFromBotMessages: true,
 
     // controls whether detailed error messages are shown in bot responses
-    showErrorDetails: false,
+    showErrorDetails: true,
   },
 
   /* Configuration to enable voice and to pass options to the recorder
